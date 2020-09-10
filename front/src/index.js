@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={createTheme()}>
-      <Arwes>
+      <Arwes animate show>
         <Provider store={store}>
           <App />
         </Provider>
